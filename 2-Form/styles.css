@@ -1,0 +1,41 @@
+body {
+	font-family: 'Open Sans';
+}
+
+form {
+	background-color: #FFFEFE;
+}
+
+h1 {
+	color:#333333;
+	font-size: 36px;
+
+}
+
+h2 {
+	font-size: 18px;
+	color: #666666;
+}
+a {
+	color:#089FE0;
+	font-weight: 400;
+}
+
+p {
+	font-size: 16px;
+	color: #333333;
+}
+
+input {
+	background-color: #F5F5F5;
+}
+
+label {
+	font-size: 16px;
+	color: #333333;
+	font-style: italic;
+}
+
+#agree {
+	color: #EEEEEE;
+}
