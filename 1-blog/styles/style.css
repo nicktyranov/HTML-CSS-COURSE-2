@@ -1,0 +1,59 @@
+body {
+	background-color: rgba(55, 65, 81, 1);
+}
+
+header a {
+	color: #FFFFFF;
+	font-weight: 400;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+h1 {
+	color: #FFFFFF;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 38px;
+}
+
+.date {
+	color: rgba(255, 255, 255, 0.6);
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+}
+
+.author {
+	color: #FFFFFF;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+}
+
+.author_title {
+	color: rgba(255, 255, 255, 0.6);
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 28px;
+}
+
+.firstP {
+	color: #FFFFFF;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 32px;
+}
+
+p {
+	color: #FFFFFF;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 30px;
+}
+
+footer {
+	color: rgba(255, 255, 255, 0.6);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+}
