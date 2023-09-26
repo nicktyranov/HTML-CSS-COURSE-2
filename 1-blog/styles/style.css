@@ -1,0 +1,79 @@
+body {
+	background-color: rgba(55, 65, 81, 1);
+	padding: 0 180px 0 180px;
+	margin: 0;
+}
+
+header {
+	margin-top: 80px;
+}
+
+header a {
+	color: #FFFFFF;
+	font-weight: 400;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+header input {
+	margin-bottom: 69px;
+}
+
+h1 {
+	color: #FFFFFF;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 38px;
+	margin: 0;
+}
+
+p {
+	color: #FFFFFF;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 30px;
+}
+
+footer {
+	color: rgba(255, 255, 255, 0.6);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+}
+
+.date {
+	color: rgba(255, 255, 255, 0.6);
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	margin-bottom: 14px;
+}
+
+.author {
+	color: #FFFFFF;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+}
+
+.author_title {
+	color: rgba(255, 255, 255, 0.6);
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 28px;
+	margin-bottom: 28px;
+}
+
+#main-img {
+	border-radius: 5px;
+	margin-bottom: 69px;
+}
+
+.firstP {
+	color: #FFFFFF;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 32px;
+	margin: 0;
+}
+
