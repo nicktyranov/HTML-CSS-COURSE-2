@@ -8,11 +8,16 @@
 </head>
 <body>
 	<main>
+		<div class="container">
 		<form action="#">
 			<h1>Регистрация</h1>
-			<div><h2>Уже есть аккаунт? <a href="#">Войти</a></h2></div>
-			<p>Моя компания</p>
-			<div>
+			<div><h2>Уже есть аккаунт? <a href="#">Войти</a></h2>
+			</div>
+		<div class="container_fields">
+			<div class="field field1">Моя компания
+			</div>
+		<div class="name-surname">
+			<div class="field field2">
 				<label for="first-name"></label>
 				<input 
 				type="text"
@@ -20,7 +25,8 @@
 				required
 				id="first-name"
 				placeholder="Имя">
-				
+			</div>
+			<div class="field field3">
 				<label for="last-name"></label>
 				<input 
 				type="text"
@@ -29,25 +35,28 @@
 				id="last-name"
 				placeholder="Фамилия">
 			</div>
-			<div>
+		</div>
+			<div class="field field4">
 				<label for="email"></label>
 				<input 
 				type="email"
 				name="email"
 				id="email"
 				placeholder="E-mail"
-				size = 50%
 				required>
 			</div>
+			<div class="field field4">
 			<button>Зарегистрироваться</button>
-			
-			<div><label for="agree"></label>
+			</div>
+			<div  class="field field5"><label for="agree"></label>
 			<input 
 			type="checkbox" 
 			name="agree" 
-			id="agree"> Я прочитал и принимаю <a href="#">Условия использования</a> 
+			id="agree"> Я прочитал и принимаю <a href="#" class="conditions">Условия использования</a> 
 			</div>
+		</div>
 		</form>
+		</div>
 	</main>
 </body>
 </html>

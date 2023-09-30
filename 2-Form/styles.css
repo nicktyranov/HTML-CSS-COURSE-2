@@ -1,24 +1,61 @@
+* {
+	box-sizing: border-box;
+	
+}
+
+html {
+	margin: 0;
+    padding: 0;
+	height: 100%;
+}
+
+main {
+	background-color: palevioletred;
+	width: 100%;
+	height: 100%;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
 body {
 	font-family: 'Open Sans';
+	display: flex;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+   
 }
 
 form {
 	background-color: #FFFEFE;
+	width: 100%;
+	border-radius: 10px;
 }
 
 h1 {
 	color:#333333;
 	font-size: 36px;
+	margin-top: 72px;
+	margin-bottom: 12px;
+
 
 }
 
 h2 {
 	font-size: 18px;
 	color: #666666;
+	margin: 0;
+	padding-bottom: 47px;
 }
 a {
-	color:#089FE0;
+	color: #089FE0;
+	font-size: 18px;
+	font-family: 'Open Sans';
 	font-weight: 400;
+	text-decoration: underline;
+	word-wrap: break-word
 }
 
 p {
@@ -28,14 +65,133 @@ p {
 
 input {
 	background-color: #F5F5F5;
+	height: 44px;
+	width: 394px;
+	background: #F5F5F5; border: 5px solid #F5F5F5
 }
 
-label {
+input::placeholder {
+    color: #999999;
+	font-size: 16px;
+	font-family: 'Open Sans';
+	font-style: italic;
+	font-weight: 400;
+	word-wrap: break-word;
+	border-radius: 5px;
+}
+
+/* label::placeholder{
 	font-size: 16px;
 	color: #333333;
 	font-style: italic;
+} */
+
+button {
+	height: 44px;
+	width: 100%;
+	max-width: 394px;
+	background: #089FE0;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	font-size: 18px;
+	font-family: Open Sans;
+	font-weight: 400;
+	word-wrap: break-word
+	
 }
+
+
+.container{
+	display: flex;
+	width: 100%;
+	max-width: 582px;
+	border-radius: 10px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	/* justify-content:center; */
+	justify-content: space-between;
+	text-align: center;
+	align-self: center;
+	
+	
+}
+
+.container_fields {
+	margin: 0;
+	display: flex;
+	flex-wrap:nowrap;
+	flex-direction: column;
+	padding: 0 93px 93px 93px;
+	
+	width: 100%;
+	max-width: 582px;;
+}
+
+
+.field {
+	height: 44px;
+	flex: 1 20;
+	text-align: left;
+	margin-bottom: 22px;
+	
+}
+
+.field1{
+	padding: 11px 9px;
+	height: 44px;
+	border-radius: 5px; border: 1px #F5F5F5 solid;
+	/* width: 394px; */
+}
+
+.name-surname {
+	display: flex;
+	flex-wrap: nowrap;
+	/* max-width: calc(var(--width-from-input) / 2); */
+}
+
+.field2 input, .field3 input, .field4 input{ 
+    width: 100%;
+}
+
+.field3 {
+	padding-left: 1px;
+}
+
+.field.field5 {
+    display: flex;
+
+	height: 19px;
+	flex-direction:row;
+	flex-wrap:nowrap ;
+	justify-content: left;
+
+	color: #666666;
+	font-size: 14px;
+	font-family: Open Sans;
+	font-weight: 400;
+	word-wrap: break-word;
+
+	justify-content: left;
+	
+}
+
+.conditions {
+	color: #089FE0;
+	font-size: 14px;
+	font-family: 'Open Sans';
+	font-weight: 400;
+	word-wrap: break-word;
+	text-decoration: none;
+	margin-left: 20px;
+}
+
 
 #agree {
 	color: #EEEEEE;
+	text-align: left;
+	margin: 0;
+	justify-content: left;
+	height: 15px;
+	width: 15px;
+	margin-right: 4px;
 }
