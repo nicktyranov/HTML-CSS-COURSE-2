@@ -1,8 +1,13 @@
+/* * {
+	margin: 0;
+	padding: 0;
+} */
+
 body {
 	background-color: rgba(55, 65, 81, 1);
 	/* padding: 0 180px 0 180px; */
 	margin: 0 180px 0 180px;
-	font-family: 'Roboto';
+	font-family: 'Roboto', sans-serif;;
 	justify-content: center;
     align-items: center;
 }
@@ -29,30 +34,6 @@ header input {
 	padding-left: 50px;
 	background-color: rgba(31, 41, 55, 0.6);
 }
-
-nav {
-	margin: 0;
-	padding: 0;
-	
-}
-
-nav ul {
-	display: flex;
-	list-style-type: none;
-	gap: 40px;
-	align-items: center;
-	height: 40px;
-	margin: 0;
-	margin-right: 20px;
-	min-width: 205px;
-}
-
-nav ul li {
-    display: flex;
-    gap: 40px;
-
-}
-
 
 h1 {
 	color: #FFFFFF;
@@ -84,13 +65,15 @@ footer {
 	text-align: center;
 }
 
-.logo {
-	font-size: 18px;
-	display: flex; 
-  	align-items: center;
-	min-width: 120px;
-	/* 115 + margin */
-	
+.menu {
+	display: flex;
+	list-style-type: none;
+	gap: 40px;
+	align-items: center;
+	height: 40px;
+	margin: 0;
+	margin-right: 20px;
+	min-width: 205px;
 }
 
 .logo-B {
@@ -99,12 +82,23 @@ footer {
 	font-family: 'Source Sans Pro';
 	font-weight: 600;
 	background-color: #4B5563;
-	text-align: center; /* Выравниваем текст по центру */
 	display: flex;
 	align-items: center; /* Выравниваем текст по вертикали */
 	justify-content: center; /* Выравниваем текст по горизонтали */
 	margin-right: 5px;
-	
+}
+
+.menu-list {
+	display: flex;
+	gap: 40px;
+}
+
+.logo {
+	font-size: 18px;
+	display: flex; 
+	align-items: center;
+	min-width: 120px;
+	/* 115 + margin */
 }
 
 .search {
@@ -118,7 +112,6 @@ footer {
 	left: 18px;
 	height: 14px;
 	width: 14px;
-	
 }
 
 .date {
@@ -189,3 +182,12 @@ footer {
 	margin: 0;
 }
 
+/*  все ломается
+#seacrh {
+	height: 40px;
+	width: 224px;
+	border: none;
+	border-radius: 100px;
+	padding-left: 50px;
+	background-color: rgba(31, 41, 55, 0.6);
+} */
