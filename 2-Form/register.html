@@ -4,15 +4,23 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Страница входа</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 	<main>
+		<div class="container">
 		<form action="#">
 			<h1>Регистрация</h1>
-			<div><h2>Уже есть аккаунт? <a href="#">Войти</a></h2></div>
-			<p>Моя компания</p>
-			<div>
+			<div class="is-user">Уже есть аккаунт? <a href="#">Войти</a></h2>
+			</div>
+		<div class="container_fields">
+			<div class="field field1">Моя компания
+			</div>
+		<div class="name-surname">
+			<div class="field field2">
 				<label for="first-name"></label>
 				<input 
 				type="text"
@@ -20,7 +28,8 @@
 				required
 				id="first-name"
 				placeholder="Имя">
-				
+			</div>
+			<div class="field field3">
 				<label for="last-name"></label>
 				<input 
 				type="text"
@@ -29,25 +38,28 @@
 				id="last-name"
 				placeholder="Фамилия">
 			</div>
-			<div>
+		</div>
+			<div class="field field4">
 				<label for="email"></label>
 				<input 
 				type="email"
 				name="email"
 				id="email"
 				placeholder="E-mail"
-				size = 50%
 				required>
 			</div>
+			<div class="field field4">
 			<button>Зарегистрироваться</button>
-			
-			<div><label for="agree"></label>
+			</div>
+			<div  class="field field5"><label for="agree"></label>
 			<input 
 			type="checkbox" 
 			name="agree" 
-			id="agree"> Я прочитал и принимаю <a href="#">Условия использования</a> 
+			id="agree"> Я прочитал и принимаю <a href="#" class="conditions">Условия использования</a> 
 			</div>
+		</div>
 		</form>
+		</div>
 	</main>
 </body>
 </html>
