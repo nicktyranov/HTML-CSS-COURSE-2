@@ -5,11 +5,8 @@
 
 body {
 	background-color: rgba(55, 65, 81, 1);
-	/* padding: 0 180px 0 180px; */
-	margin: 0 180px 0 180px;
+	margin: 0;
 	font-family: 'Roboto', sans-serif;;
-	justify-content: center;
-    align-items: center;
 }
 
 header {
@@ -63,6 +60,10 @@ footer {
 	font-size: 16px;
 	line-height: 28px;
 	text-align: center;
+}
+
+.wrapper-site {
+	margin: 0 180px 0 180px;
 }
 
 .menu {
