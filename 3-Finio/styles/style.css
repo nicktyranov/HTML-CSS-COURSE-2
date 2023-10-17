@@ -1,0 +1,136 @@
+:root {
+  --color-h2: #000;
+  --color-text: rgba(78, 93, 124, 0.5);
+  --color-text-white: #fff;
+
+  --color-bg-blue: #357efe;
+  --color-br-orange: #ffc736;
+  --color-bg-discount: #1abc9c;
+
+  --border-8: 8px;
+  --border-67: 67px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-family: "Inter", sans-serif;
+}
+
+.prices-h2 {
+  color: var(--color-h2);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.prices-p {
+  color: var(--color-text);
+  text-align: center;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 23.8px */
+  margin-bottom: 40px;
+}
+
+.price {
+  border-radius: var(--border-8);
+  max-width: 369px;
+}
+
+.price-3 {
+  background-color: var(--color-bg-blue);
+  padding: 48px 40px;
+}
+
+.price-discount-value {
+  display: inline-block;
+  color: var(--color-text-white);
+  background-color: var(--color-bg-discount);
+  padding: 4px 16px;
+  border-radius: var(--border-8);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  margin-bottom: 16px;
+}
+
+.price-discount-value span {
+  font-weight: 800;
+}
+
+.price-duration {
+  color: var(--color-text-white);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 120%;
+  margin-bottom: 16px;
+}
+
+.price-for-who {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  margin-bottom: 32px;
+}
+
+.price-bullet-wrapper {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: 2fr 1fr;
+  margin-bottom: 34px;
+}
+
+.price-bullet {
+  color: var(--color-text-white);
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  text-align: left;
+}
+
+.price-bullet span {
+  display: block;
+  font-weight: 700;
+  padding: 8px 16px;
+  background-color: var(--color-br-orange);
+  border-radius: var(--border-8);
+  justify-self: left;
+  max-height: 36px;
+  white-space: nowrap;
+}
+
+.price-bullet-hr {
+  height: 1px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.16);
+  grid-column: span 2;
+}
+
+.price-button {
+  color: var(--color-bg-blue);
+
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 140%;
+  padding: 12px 63px;
+  border-radius: var(--border-67);
+  border: none;
+}
