@@ -1,0 +1,12 @@
+.button__white {
+  color: var(--color-bg-blue);
+  background-color: var(--color-br-white);
+  text-align: center;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 140%;
+  padding: 12px 32px;
+  border-radius: 34px;
+  border: none;
+}

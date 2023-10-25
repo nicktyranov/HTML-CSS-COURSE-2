@@ -10,9 +10,68 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/components.css" />
     <title>Тарифы</title>
   </head>
   <body>
+    <header>
+      <div class="header_top_wrapper">
+        <div class="header_logo">
+          <img src="./img/finio_logo.svg" alt="Finio logo" />
+        </div>
+        <nav>
+          <ul class="header_menu">
+            <li class="menu_list"><a href="#">Возможности</a></li>
+            <li class="menu_list"><a href="#">Тарифы</a></li>
+            <li class="menu_list"><a href="#">Отзывы</a></li>
+            <li class="menu_list"><a href="#">Поддержка клиентов</a></li>
+          </ul>
+        </nav>
+        <button class="button__white">Личный кабинет</button>
+      </div>
+
+      <div class="header_mid_wrapper">
+        <div class="header_mid_wrapper__left"">
+          <h1 class="header_heading">Простой финансовый учёт для продавцов на маркетплейсах</h1>
+          <button class="header_mid_button button__white">Попробовать 14 дней бесплатно</button>
+          <img src="./img/logos/partners-logos.svg" alt="Logos of partners">
+        </div>
+        
+        <div class="main-img">
+          <img 
+          src="./img/main-image.png" 
+          class="main-img"
+          alt="Screenshot of working app of Finio">
+        </div>
+      </div>
+
+      <div class="header_bottom_wrapper">
+        <div class="header_bottom_icons">
+          <div class="header_icon"><img src="./img/icons/icon-analyze.svg" alt="Icon of the analize">Анализ прибыли по<br>товарам и брендам</div>
+          <div class="header_icon"><img src="./img/icons/icon-accounting.svg" alt="icon of the account process">Автоматический учёт<br> доходов Wildberries</div>
+          <div class="header_icon"><img src="./img/icons/icon-currency.svg" alt="currency icon">От 990 рублей в месяц<br> с полным функционалом</div>
+        </div>
+      </div>
+    </header>
+    <section class="section">
+      <div class="section-left__wrapper">
+        <div ><h2 class="section-header">Предотвращайте<br> кассовые разрывы</h2>
+        <p class="section-text">Заранее планируйте предстоящие платежи и поступления средств. Тем самым, вы избежите неприятной ситуации с нехваткой средств на счетах</p>
+        </div>
+        <div>
+          <img src="./img/charts.png" alt="Planning charts">
+        </div>
+      </div>
+      <div>
+        <div></div>
+        <div></div>
+      </div>
+      <div>
+        <div></div>
+        <div></div>
+      </div>
+    </section>
     <h2 class="prices-h2">Тарифы</h2>
     <p class="prices-p">
       Все тарифы имеют полный функционал и отличаются только количеством месяцев
@@ -23,49 +82,47 @@
         <div class="price-discount-value price-discount-value-item-1">
           Выгода <span>25%</span>
         </div>
-        <div class="price-duration-black price-duration-black-item-1">
-          1 месяц
-        </div>
+        <div class="price-duration-items-1-2">1 месяц</div>
         <div class="price-for-who-items-1-2">
           Тариф подойдёт тем, кто ведёт краткосрочные проекты
         </div>
 
-        <div class="price-bullet-wrapper-black">
-          <div class="price-bullet-black">Общая стоимость</div>
-          <div class="price-bullet-black price-bullet-right">1 990 ₽</div>
+        <div class="price-bullet-wrapper-items-1-2">
+          <div class="price-bullet-items-1-2">Общая стоимость</div>
+          <div class="price-bullet-items-1-2">1 990 ₽</div>
         </div>
 
-        <div class="price-bullet-wrapper-black">
-          <div class="price-bullet-black">Ваша выгода</div>
-          <div class="price-bullet-black price-bullet-right">0 ₽</div>
+        <div class="price-bullet-wrapper-items-1-2">
+          <div class="price-bullet-items-1-2">Ваша выгода</div>
+          <div class="price-bullet-items-1-2">0 ₽</div>
         </div>
 
         <div class="price-bullet-wrapper-last">
-          <div class="price-bullet-black">Стоимость месяца</div>
-          <div class="price-bullet-black price-bullet-right">1 990 ₽/мес</div>
+          <div class="price-bullet-items-1-2">Стоимость месяца</div>
+          <div class="price-bullet-items-1-2">1 990 ₽/мес</div>
         </div>
         <button class="price-button-blue">Бесплатно 14 дней</button>
       </div>
 
       <div class="price price-2">
         <div class="price-discount-value">Выгода <span>25%</span></div>
-        <div class="price-duration-black">6 месяцев</div>
+        <div class="price-duration-items-1-2">6 месяцев</div>
         <div class="price-for-who-items-1-2">
           Тариф подойдёт для тех, кто уверенно ведёт финансовый учёт
         </div>
-        <div class="price-bullet-wrapper-black">
-          <div class="price-bullet-black">Общая стоимость</div>
-          <div class="price-bullet-black price-bullet-right">8 940 ₽</div>
+        <div class="price-bullet-wrapper-items-1-2">
+          <div class="price-bullet-items-1-2">Общая стоимость</div>
+          <div class="price-bullet-items-1-2">8 940 ₽</div>
         </div>
 
-        <div class="price-bullet-wrapper-black">
-          <div class="price-bullet-black">Ваша выгода</div>
+        <div class="price-bullet-wrapper-items-1-2">
+          <div class="price-bullet-items-1-2">Ваша выгода</div>
           <div class="price-bullet span"><span>3 000 ₽</span></div>
         </div>
 
         <div class="price-bullet-wrapper-last">
-          <div class="price-bullet-black">Стоимость месяца</div>
-          <div class="price-bullet-black price-bullet-right">1 490 ₽/мес</div>
+          <div class="price-bullet-items-1-2">Стоимость месяца</div>
+          <div class="price-bullet-items-1-2">1 490 ₽/мес</div>
         </div>
         <button class="price-button-blue">Бесплатно 14 дней</button>
       </div>
@@ -81,7 +138,7 @@
         <div class="price-bullet-wrapper">
           <div class="price-bullet">Общая стоимость</div>
 
-          <div class="price-bullet price-bullet-right">11 880 ₽</div>
+          <div class="price-bullet">11 880 ₽</div>
         </div>
 
         <div class="price-bullet-wrapper">
@@ -93,26 +150,10 @@
 
         <div class="price-bullet-wrapper-last">
           <div class="price-bullet">Стоимость месяца</div>
-          <div class="price-bullet price-bullet-right">990 ₽/мес</div>
+          <div class="price-bullet">990 ₽/мес</div>
         </div>
         <button class="price-button">Бесплатно 14 дней</button>
       </div>
-
-      <!-- 		
-        <div class="price-bullet-wrapper">
-          <div class="price-bullet">Общая стоимость</div>
-          <div class="price-bullet price-bullet-right">11 880 ₽</div>
-          <div class="price-bullet-hr"></div>
-          <div class="price-bullet">Ваша выгода</div>
-          <div class="price-bullet"><span>12 000 ₽</span></div>
-          <div class="price-bullet-hr"></div>
-          <div class="price-bullet">Стоимость месяца</div>
-          <div class="price-bullet price-bullet-right">990 ₽/мес</div>
-        </div>
-        <button class="price-button">Бесплатно 14 дней</button>
-      </div> -->
-
-      <!-- <div class="price__wrapper"></div> -->
     </div>
   </body>
 </html>
