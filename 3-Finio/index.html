@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/header.css" />
     <link rel="stylesheet" href="./styles/components.css" />
+    <link rel="stylesheet" href="./styles/footer.css">
     <title>Тарифы</title>
   </head>
   <body>
@@ -55,27 +56,140 @@
       </div>
     </header>
     <section class="section">
-      <div class="section-left__wrapper">
-        <div ><h2 class="section-header">Предотвращайте<br> кассовые разрывы</h2>
+      <div class="section-block__wrapper">
+        <div><h2 class="section-header">Предотвращайте<br> кассовые разрывы</h2>
         <p class="section-text">Заранее планируйте предстоящие платежи и поступления средств. Тем самым, вы избежите неприятной ситуации с нехваткой средств на счетах</p>
         </div>
-        <div>
+        <div class="section-img">
           <img src="./img/charts.png" alt="Planning charts">
         </div>
       </div>
-      <div>
-        <div></div>
-        <div></div>
+
+      <div class="section-block__wrapper">
+        <div class="section-img">
+          <img src="./img/report.png" alt="Report of incomes and expenses">
+        </div>
+        <div><h2 class="section-header section-header-right">Отчёты о прибыли и убытках всегда под рукой</h2>
+        <p class="section-text section-text-right">Получите полную информацию о состоянии вашего бизнеса, включающую все необходимые показатели для принятия правильных решений</p>
+        </div>
+        
       </div>
-      <div>
-        <div></div>
-        <div></div>
+
+      <div class="section-block__wrapper">
+        <div><h2 class="section-header">Какие товары приносят прибыль</h2>
+        <p class="section-text">Находите точки роста, делайте упор на рентабельные товары и увеличивайте свой доход</p>
+        </div>
+        <div class="section-img">
+          <img src="./img/data-analyze.png" alt="Data analyze charts">
+        </div>
+      </div>
+
+      <div class="section-block__wrapper">
+        <div class="section-img">
+          <img 
+          src="./img/reduce-expenses-3.jpeg" 
+          alt="Charts of reducing expenses"
+          id="section-img__special">
+        </div>
+        <div><h2 class="section-header section-header-right">Сокращайте лишние расходы</h2>
+        <p class="section-text section-text-right">Анализируйте расходы, убирать ненужные издержки и находите возможности повышать прибыльность бизнеса</p>
+        </div>
+      </div>
+
+    </section>
+    <section class="section-blue">
+      <div class="section section-2 section-blue">
+      <h2 class="section-2-header">Экономьте время и нервы на учете</h2>
+      <p class="section-2-text">Автоматическая синхронизация данных с маркетплейсов позволит вам мгновенно получать все важный показатели бизнеса на одном экране. А с помощью мобильной версии вы сможете вносить расходы всего пару кликов</p>
+      <button class="button__white section-2-button">Попробовать 14 дней бесплатно</button>
+      <img src="./img/img-with-compare.jpeg" alt="image with the compare funtion" class="section-2-img">
+      </div>
+      <div class="section-2-compare">
+        <div class="section-2-list__wrapper">
+          <div class="section-2-list-name"> Excel
+          </div>
+          <ul class="list-item-left">
+              <li class="section-2-list">Долгое внесение данных</li>
+              <li class="section-2-list">Ручной ввод данных с маркетплейсов</li>
+              <li class="section-2-list">Не удобная работа с телефона</li>
+              <li class="section-2-list">Сложность восприятия итоговых данных</li>
+          </ul>
+        </div>
+        
+        <div class="section-2-list__wrapper">
+            <div class="section-2-list-name"> FINIO</div>
+          <ul class="list-item-right">
+            <li class="section-2-list">Внесение данных за пару кликов</li>
+            <li class="section-2-list">Автоматическое получение данных по API</li>
+            <li class="section-2-list">Удобная мобильная версия</li>
+            <li class="section-2-list">Наглядные отчеты, графики и таблицы</li>
+          </ul>
+        </div>
       </div>
     </section>
-    <h2 class="prices-h2">Тарифы</h2>
-    <p class="prices-p">
+
+    <section class="section section-3">
+        <div class="section-3__wrapper">
+        <div class="section-3-bullet__wrapper">
+            <div>
+              <img src="./img/icons/servers 1.svg" alt="server icon">
+            </div>
+            <h3 class="section-3-headers">Надёжные сервера на <br> территории России</h3>
+            <p class="section-p-grey">Никакие события не скажутся на бесперебойной работе сервиса.</p>
+        </div>
+
+        <div class="section-3-bullet__wrapper">
+          <div>
+            <img src="./img/icons/ssl.svg" alt="server icon">
+          </div>
+          <h3 class="section-3-headers">Используем 256-битное <br> SSL-шифрование</h3>
+          <p class="section-p-grey">Ваши данные не могут быть перехвачены, даже при использовании открытых Wi-Fi сетей</p>
+      </div>
+
+      <div class="section-3-bullet__wrapper">
+        <div>
+          <img src="./img/icons/security 1.svg" alt="server icon">
+        </div>
+        <h3 class="section-3-headers">Не передаём ваши данные 3-им лицам</h3>
+        <p class="section-p-grey">Все данные о доходах и расходах компании видны только вам и тем, кому вы открыли доступ</p>
+      </div>
+
+     </div> 
+    </section>
+
+<section class="section section-4">
+  <h2 class="section-headers">Мобильная версия</h2>
+  <p class="section-p-grey">Пользоваться всем функционалом сервиса удобно в любом месте и с любых устройств</p>
+  <img 
+  src="./img/mobile-version.png" 
+  alt="Mobile version of the website"
+  id="section-4-img">
+</section>
+
+  <div class="section-4-support">
+    <div class="section-4-support-img">
+      <img src="./img/support-girl.png" alt="Support team">
+    </div>
+    <div>
+      <h3 class="section-4-header__white">Поддержка клиентов</h3>
+      <p class="section-4-text">Мы всегда готовы ответить на любые вопросы в онлайн чате или по телефону.</p>
+      <div class="section-4-contacts__wrapper">
+        <div class="section-4-contacts"><img src="./img/icons/tg.svg" alt="Telegram Finio">Telegram Finio</div>
+        <div class="section-4-contacts"><img src="./img/icons/whatsApp.svg" alt="WhatsApp Finio">WhatsApp Finio</div>
+        <div class="section-4-contacts"><img src="./img/icons/mail.svg" alt="e-mail Finio">hello@finio.ru</div>
+      </div>
+      <p class="section-4-text">Кроме того, мы готовы помочь вам с переносом данных из других сервисов или Excel.</p>
+    </div>
+  </div>
+
+
+    <section class="section-5">
+      <h2 class="prices-h2">Тарифы</h2>
+      <p class="section-p-grey section-align-center">
       Все тарифы имеют полный функционал и отличаются только количеством месяцев
       и выгодой
+    </div>
+   
     </p>
     <div class="price__wrapper">
       <div class="price price-1">
@@ -155,5 +269,61 @@
         <button class="price-button">Бесплатно 14 дней</button>
       </div>
     </div>
+    </section>
+
+    <section class="section-6 section">
+      <h2 class="section-headers section-align-center">Отзывы</h2>
+      <div class="button-slider__wrapper">
+        <img 
+      src="./img/review.png" 
+      alt="client review"
+      class="section-6-img">
+      <img 
+      src="./img/icons/button-left.png" alt="button left"
+      id="section-6-img-button-l">
+      <img 
+      src="./img/icons/button-right.png" alt="button right"
+      id="section-6-img-button-r">
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer__wrapper">
+       <div class="footer-logo__wrapper">
+          <img src="./img/finio_logo.svg" alt="finio logo">
+          <p>Простой финансовый учёт для<br> продавцов на маркетплейсах</p>
+        </div>
+        <div>
+          <ul class="footer-list">
+            <li><a href="#">Возможности</a></li>
+            <li><a href="#">Тарифы</a></li>
+            <li><a href="#">Отзывы</a></li>
+            <li><a href="#">Поддержка клиентов</a> </li>
+          </ul>
+        </div>
+        <div>
+          <ul class="footer-list">
+            <li><a href="#">Политика конфиденциальности</a></li>
+            <li><a href="#">Пользовательское соглашение</a></li>
+            <li><a href="#">Оплата и возврат</a></li>
+            <li><a href="#">Договор офферта</a></li>
+          </ul>
+        </div>
+        <div>
+          <ul class="footer-list">
+            <li><a href="#">ИП Ларичев Антон Андреевич</a></li>
+            <li><a href="#">ИНН 773373765379</a></li>
+            <li><a href="#">ОГРИП 322774600208776</a></li>
+            <li><a href="#">Эл. почта: alarichev@gmail.com</a></li>
+            <li><a href="#">Тел.: +7 (910) 435-75-92</a></li>
+            <li><a href="#">Москва, Вилиса Лациса 25</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom__wrapper">
+        <div>© 2022 Finio. Все права защищены.</div>
+        <div><img src="./img/icons/bank-icons.svg" alt="icons of banks"></div>
+      </div>
+    </footer>
   </body>
 </html>

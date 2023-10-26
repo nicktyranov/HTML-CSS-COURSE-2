@@ -1,5 +1,6 @@
 header {
   background-color: var(--color-bg-blue);
+  /* margin-bottom: 63px; */
 }
 .header_top_wrapper {
   display: flex;
@@ -8,6 +9,7 @@ header {
   margin: 0 264px 100px;
   max-width: 1920px;
   /* margin: 0 auto; */
+  align-items: center;
 }
 
 .header_logo {
