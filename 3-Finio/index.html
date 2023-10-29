@@ -31,15 +31,17 @@
         </nav>
         <button class="button__white">Личный кабинет</button>
       </div>
+    </header>
 
-      <div class="header_mid_wrapper">
-        <div class="header_mid_wrapper__left"">
-          <h1 class="header_heading">Простой финансовый учёт для продавцов на маркетплейсах</h1>
-          <button class="header_mid_button button__white">Попробовать 14 дней бесплатно</button>
+      <div class="main-screen">
+        <div class="main-screen-top__wrapper">
+        <div class="main-screen-top__left">
+          <h1 class="main-screen_heading">Простой финансовый учёт для продавцов на маркетплейсах</h1>
+          <button class="main-screen_button button__white">Попробовать 14 дней бесплатно</button>
           <img src="./img/logos/partners-logos.svg" alt="Logos of partners">
         </div>
         
-        <div class="main-img">
+        <div class="main-screen_img">
           <img 
           src="./img/main-image.png" 
           class="main-img"
@@ -47,14 +49,18 @@
         </div>
       </div>
 
-      <div class="header_bottom_wrapper">
-        <div class="header_bottom_icons">
-          <div class="header_icon"><img src="./img/icons/icon-analyze.svg" alt="Icon of the analize">Анализ прибыли по<br>товарам и брендам</div>
-          <div class="header_icon"><img src="./img/icons/icon-accounting.svg" alt="icon of the account process">Автоматический учёт<br> доходов Wildberries</div>
-          <div class="header_icon"><img src="./img/icons/icon-currency.svg" alt="currency icon">От 990 рублей в месяц<br> с полным функционалом</div>
+      <div class="main-screen-bottom__wrapper">
+        <div class="main-screen-bottom_icons">
+          <div class="main-screen_icon"><img src="./img/icons/icon-analyze.svg" alt="Icon of the analize">Анализ прибыли по<br>товарам и брендам</div>
+          <div class="main-screen_icon"><img src="./img/icons/icon-accounting.svg" alt="icon of the account process">Автоматический учёт<br> доходов Wildberries</div>
+          <div class="main-screen_icon"><img src="./img/icons/icon-currency.svg" alt="currency icon">От 990 рублей в месяц<br> с полным функционалом</div>
         </div>
       </div>
-    </header>
+      
+    </div>
+
+    <div class="section-main__wrapper">
+
     <section class="section">
       <div class="section-block__wrapper">
         <div><h2 class="section-header">Предотвращайте<br> кассовые разрывы</h2>
@@ -98,7 +104,7 @@
 
     </section>
     <section class="section-blue">
-      <div class="section section-2 section-blue">
+      <div class="section section-2">
       <h2 class="section-2-header">Экономьте время и нервы на учете</h2>
       <p class="section-2-text">Автоматическая синхронизация данных с маркетплейсов позволит вам мгновенно получать все важный показатели бизнеса на одном экране. А с помощью мобильной версии вы сможете вносить расходы всего пару кликов</p>
       <button class="button__white section-2-button">Попробовать 14 дней бесплатно</button>
@@ -108,21 +114,22 @@
         <div class="section-2-list__wrapper">
           <div class="section-2-list-name"> Excel
           </div>
-          <ul class="list-item-left">
-              <li class="section-2-list">Долгое внесение данных</li>
-              <li class="section-2-list">Ручной ввод данных с маркетплейсов</li>
-              <li class="section-2-list">Не удобная работа с телефона</li>
-              <li class="section-2-list">Сложность восприятия итоговых данных</li>
+          <ul class="section-2-list-item">
+              <li class="section-2-list">
+                <div class="section-2-list"><img src="../img/icons/exclamation-circle.svg" alt="circle-icon">Долгое внесение данных</div></li>
+              <li class="section-2-list"><div class="section-2-list"><img src="../img/icons/exclamation-circle.svg" alt="circle-icon">Ручной ввод данных с маркетплейсов</div></li>
+              <li class="section-2-list"><div class="section-2-list"><img src="../img/icons/exclamation-circle.svg" alt="circle-icon">Не удобная работа с телефона</div></li>
+              <li class="section-2-list"><div class="section-2-list"><img src="../img/icons/exclamation-circle.svg" alt="circle-icon">Сложность восприятия итоговых данных</div></li>
           </ul>
         </div>
         
         <div class="section-2-list__wrapper">
             <div class="section-2-list-name"> FINIO</div>
-          <ul class="list-item-right">
-            <li class="section-2-list">Внесение данных за пару кликов</li>
-            <li class="section-2-list">Автоматическое получение данных по API</li>
-            <li class="section-2-list">Удобная мобильная версия</li>
-            <li class="section-2-list">Наглядные отчеты, графики и таблицы</li>
+          <ul class="section-2-list-item">
+            <li class="section-2-list"><div class="section-2-list"><img src="../img/icons/check-circle.svg" alt="check-icon">Внесение данных за пару кликов</li>
+            <li class="section-2-list"><div class="section-2-list"><img src="../img/icons/check-circle.svg" alt="check-icon">Автоматическое получение данных по API</div></li>
+            <li class="section-2-list"><div class="section-2-list"><img src="../img/icons/check-circle.svg" alt="check-icon">Удобная мобильная версия</div></li>
+            <li class="section-2-list"><div class="section-2-list"><img src="../img/icons/check-circle.svg" alt="check-icon">Наглядные отчеты, графики и таблицы</div></li>
           </ul>
         </div>
       </div>
@@ -187,10 +194,9 @@
       <h2 class="prices-h2">Тарифы</h2>
       <p class="section-p-grey section-align-center">
       Все тарифы имеют полный функционал и отличаются только количеством месяцев
-      и выгодой
-    </div>
-   
-    </p>
+      и выгодой   
+      </p>
+
     <div class="price__wrapper">
       <div class="price price-1">
         <div class="price-discount-value price-discount-value-item-1">
@@ -274,7 +280,8 @@
     <section class="section-6 section">
       <h2 class="section-headers section-align-center">Отзывы</h2>
       <div class="button-slider__wrapper">
-        <img 
+        <div class="section-6-img-container">
+      <img 
       src="./img/review.png" 
       alt="client review"
       class="section-6-img">
@@ -285,8 +292,10 @@
       src="./img/icons/button-right.png" alt="button right"
       id="section-6-img-button-r">
       </div>
+      
     </section>
 
+    </div>
     <footer>
       <div class="footer__wrapper">
        <div class="footer-logo__wrapper">

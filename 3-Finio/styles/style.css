@@ -20,6 +20,7 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
 }
 
 html {
@@ -29,17 +30,86 @@ html {
   font-family: "Inter", sans-serif;
 }
 
+/* main-screen */
+.main-screen {
+  background-color: var(--color-bg-blue);
+}
+
+.main-screen-top__wrapper {
+  display: flex;
+  margin: 0 264px;
+}
+
+.main-screen-top__left {
+  max-width: 515px;
+}
+
+.main-screen_heading {
+  color: var(--color-text-white);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 120%;
+  margin-bottom: 40px;
+  min-width: 515px;
+}
+
+.main-screen_button {
+  margin-bottom: 80px;
+}
+
+.main-screen_img {
+  position: relative;
+  width: 1039px;
+  max-width: 1039px;
+  min-height: 539px;
+  min-height: 627px;
+}
+
+.main-screen_img img {
+  position: absolute;
+  left: -60px;
+  width: 1039px;
+  min-height: 539px;
+}
+
+.main-screen-bottom__wrapper {
+  background-color: var(--color-br-white);
+  /* transform: rotate(-7.003deg); */
+  padding-top: 80px;
+  margin-bottom: 80px;
+}
+
+.main-screen-bottom_icons {
+  display: flex;
+  gap: 64px;
+  justify-content: space-between;
+  margin: 0 264px;
+}
+
+.main-screen_icon {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  max-height: 64px;
+  max-width: 408px;
+}
+
 /* section */
+.section-main__wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
 .section {
   max-width: 1920px;
   padding-top: 63px;
   margin: 0 264px;
   border-top: 1px solid var(--color-border);
-}
-
-.section-blue {
-  background-color: var(--color-bg-blue);
-  padding: 0;
 }
 
 .section-block__wrapper {
@@ -86,6 +156,10 @@ html {
 }
 
 /* section-2 */
+.section-blue {
+  background-color: var(--color-bg-blue);
+  padding: 120px 0 120px;
+}
 
 .section-2 {
   display: flex;
@@ -101,7 +175,7 @@ html {
   font-style: normal;
   font-weight: 600;
   line-height: 120%;
-  margin: 120px 0 24px;
+  margin-bottom: 24px;
 }
 
 .section-2-text {
@@ -129,7 +203,19 @@ html {
   /* align-items: center; */
   justify-content: center;
   gap: 70px;
-  padding-bottom: 120px;
+}
+
+.section-2-list {
+  color: var(--color-text-menu);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  max-height: 25px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 8px;
 }
 
 .section-2-list-name {
@@ -141,38 +227,11 @@ html {
   margin-bottom: 24px;
 }
 
-.list-item-left {
+.section-2-list-item {
   list-style: none;
-  list-style-image: url(../img/icons/exclamation-circle.svg);
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
-  align-content: center;
   gap: 24px;
-}
-
-.list-item-right {
-  list-style-image: url(../img/icons/check-circle.svg);
-  display: flex;
-  flex-direction: column;
-  /* align-items: center; */
-  align-content: center;
-  gap: 24px;
-}
-
-.section-2-list {
-  color: var(--color-text-menu);
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 140%;
-  max-height: 25px;
-  /* display: flex; */
-  margin: 0;
-  padding: 0;
-}
-
-.section-2-list::marker {
 }
 
 /* section-3 */
@@ -184,8 +243,7 @@ html {
 
 .section-3__wrapper {
   display: grid;
-  /* grid-template-columns: repeat(3, 1fr); */
-  grid-template-columns: 394px 403px 390px;
+  grid-template-columns: repeat(3, 1fr);
   gap: 78px;
   align-items: center;
 }
@@ -458,12 +516,24 @@ html {
 .button-slider__wrapper {
   position: relative;
   /* overflow: hidden; */
+  display: flex;
+  justify-content: center;
 }
+.section-6-img-container {
+  position: relative;
+  display: inline-block; /* Делаем контейнер строчным блоком, чтобы он зависел от размеров картинки review.png */
+}
+
 .section-6-img {
   position: relative;
   overflow: hidden;
   padding: 0;
   margin: 0;
+  /* width: 100%; */
+  /* display: flex;
+  justify-content: center; */
+  max-width: 100%; /* Максимальная ширина для картинки */
+  height: auto; /* Автоматическая высота для сохранения пропорций */
 }
 
 #section-6-img-button-l {
@@ -476,6 +546,6 @@ html {
 #section-6-img-button-r {
   position: absolute;
   top: 199px;
-  left: 1092px;
+  right: 24px;
   cursor: pointer;
 }
