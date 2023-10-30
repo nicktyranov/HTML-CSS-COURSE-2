@@ -2,14 +2,32 @@ header {
   background-color: var(--color-bg-blue);
   /* margin-bottom: 63px; */
 }
-.header_top_wrapper {
-  display: flex;
-  justify-content: space-between;
-  padding: 40px 0 100px;
+.header-full__wrapper {
   margin: 0 264px;
   max-width: 1920px;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  /* justify-content: flex-start; */
+  /* align-content: center; */
+  padding: 40px 0 100px;
+  /* margin: 0 264px;
+  max-width: 1920px; */
+  margin: 0 auto;
   align-items: center;
 }
+
+/* .header-menu-button__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-button {
+  display: flex;
+} */
 
 .header_logo {
   margin-right: 280px;
@@ -19,6 +37,7 @@ header {
   list-style: none;
   display: flex;
   gap: 32px;
+  /* margin-right: 257px; */
 }
 
 .menu_list {
