@@ -40,5 +40,6 @@ footer {
 
 .footer-logo__wrapper img {
   height: 50px;
+  max-width: 97px;
   padding: 7px 0;
 }

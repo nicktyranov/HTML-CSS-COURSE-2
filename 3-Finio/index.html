@@ -14,16 +14,17 @@
     <link rel="stylesheet" href="./styles/components.css" />
     <link rel="stylesheet" href="./styles/footer.css">
     <link rel="stylesheet" href="./styles/media.css">
+    <link rel="stylesheet" href="./styles/page.css">
     <title>Тарифы</title>
   </head>
   <body>
-    <header>
-      <div class="header-full__wrapper">
-        <div class="header__wrapper">
+    <div class="main-container">
+  
+      <header>
+      <div class="header__wrapper">
         <div class="header_logo">
           <img src="./img/finio_logo.svg" alt="Finio logo" />
         </div>
-        <!-- <div class="header-menu-button__wrapper"> -->
           <nav>
           <ul class="header_menu">
             <li class="menu_list"><a href="#">Возможности</a></li>
@@ -31,30 +32,31 @@
             <li class="menu_list"><a href="#">Отзывы</a></li>
             <li class="menu_list"><a href="#">Поддержка клиентов</a></li>
           </ul>
-        </nav>
-        <button class="header-button button__white">Личный кабинет</button>
+          </nav>
+        <button class="header-button button__white">Личный кабинет
+        </button>
       </div>
-      
-        <!-- </div> -->
-        
-      </div>
-    </header>
+      </header> 
 
       <div class="main-screen">
+
         <div class="main-screen-top__wrapper">
         <div class="main-screen-top__left">
           <h1 class="main-screen_heading">Простой финансовый учёт для продавцов на маркетплейсах</h1>
           <button class="main-screen_button button__white">Попробовать 14 дней бесплатно</button>
-          <img src="./img/logos/partners-logos.svg" alt="Logos of partners">
+          <div class="partners-logos">
+             <img src="./img/logos/partners-logos.svg" alt="Logos of partners">
+          </div>
         </div>
         
-        <div class="main-screen_img">
+        <div class="finio-image_wrapper">
           <img 
           src="./img/main-image.png" 
-          class="main-img"
           alt="Screenshot of working app of Finio">
         </div>
       </div>
+    <!-- </div> -->
+      <div class="rotated"></div>
 
       <div class="main-screen-bottom__wrapper">
         <div class="main-screen-bottom_icons">
@@ -63,14 +65,13 @@
           <div class="main-screen_icon"><img src="./img/icons/icon-currency.svg" alt="currency icon">От 990 рублей в месяц<br> с полным функционалом</div>
         </div>
       </div>
-      
-    </div>
 
+    </div>
     <div class="section-main__wrapper">
 
-    <section class="section">
+    <section class="section section-1">
       <div class="section-block__wrapper">
-        <div><h2 class="section-header">Предотвращайте<br> кассовые разрывы</h2>
+        <div class="section-1-text-left"><h2 class="section-header">Предотвращайте<br> кассовые разрывы</h2>
         <p class="section-text">Заранее планируйте предстоящие платежи и поступления средств. Тем самым, вы избежите неприятной ситуации с нехваткой средств на счетах</p>
         </div>
         <div class="section-img">
@@ -82,14 +83,14 @@
         <div class="section-img">
           <img src="./img/report.png" alt="Report of incomes and expenses">
         </div>
-        <div><h2 class="section-header section-header-right">Отчёты о прибыли и убытках всегда под рукой</h2>
-        <p class="section-text section-text-right">Получите полную информацию о состоянии вашего бизнеса, включающую все необходимые показатели для принятия правильных решений</p>
+        <div><h2 class="section-header">Отчёты о прибыли и убытках всегда под рукой</h2>
+        <p class="section-text">Получите полную информацию о состоянии вашего бизнеса, включающую все необходимые показатели для принятия правильных решений</p>
         </div>
         
       </div>
 
       <div class="section-block__wrapper">
-        <div><h2 class="section-header">Какие товары приносят прибыль</h2>
+        <div class="section-1-text-left"><h2 class="section-header">Какие товары приносят прибыль</h2>
         <p class="section-text">Находите точки роста, делайте упор на рентабельные товары и увеличивайте свой доход</p>
         </div>
         <div class="section-img">
@@ -97,15 +98,15 @@
         </div>
       </div>
 
-      <div class="section-block__wrapper">
+      <div class="section-block__wrapper section-block__wrapper-last">
         <div class="section-img">
           <img 
           src="./img/reduce-expenses-3.jpeg" 
           alt="Charts of reducing expenses"
           id="section-img__special">
         </div>
-        <div><h2 class="section-header section-header-right">Сокращайте лишние расходы</h2>
-        <p class="section-text section-text-right">Анализируйте расходы, убирать ненужные издержки и находите возможности повышать прибыльность бизнеса</p>
+        <div><h2 class="section-header">Сокращайте лишние расходы</h2>
+        <p class="section-text">Анализируйте расходы, убирать ненужные издержки и находите возможности повышать прибыльность бизнеса</p>
         </div>
       </div>
 
@@ -284,7 +285,28 @@
     </div>
     </section>
 
-    <section class="section-6 section">
+    <section class="section-6">
+      <h2 class="section-headers section-align-center">Отзывы</h2>
+      <div class="button-slider__wrapper">
+        <div class="section-6-img-container">
+        <img 
+        src="./img/review.png" 
+        alt="client review"
+        class="section-6-img">
+          <div class="section-6-img-button-l">
+          <img 
+          src="./img/icons/button-left.svg" alt="button left">
+          </div>
+          <div class="section-6-img-button-r">
+          <img 
+          src="./img/icons/button-right.svg" alt="button right"> 
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- 
+    <section class="section-6">
       <h2 class="section-headers section-align-center">Отзывы</h2>
       <div class="button-slider__wrapper">
         <div class="section-6-img-container">
@@ -300,7 +322,7 @@
       id="section-6-img-button-r">
       </div>
       
-    </section>
+    </section> -->
 
     </div>
     <footer>
@@ -341,5 +363,7 @@
         <div><img src="./img/icons/bank-icons.svg" alt="icons of banks"></div>
       </div>
     </footer>
+    </div>
+    
   </body>
 </html>
