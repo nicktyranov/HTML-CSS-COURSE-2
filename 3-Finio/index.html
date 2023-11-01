@@ -13,8 +13,9 @@
     <link rel="stylesheet" href="./styles/header.css" />
     <link rel="stylesheet" href="./styles/components.css" />
     <link rel="stylesheet" href="./styles/footer.css">
-    <link rel="stylesheet" href="./styles/media.css">
     <link rel="stylesheet" href="./styles/page.css">
+    <link rel="stylesheet" href="./styles/media.css">
+    
     <title>Тарифы</title>
   </head>
   <body>
@@ -34,6 +35,9 @@
           </ul>
           </nav>
         <button class="header-button button__white">Личный кабинет
+        </button>
+        <button class="header-button-mobile">
+          <img src="./img/icons/mobile-menu.svg" alt="mobile-menu-icon">
         </button>
       </div>
       </header> 
@@ -56,7 +60,7 @@
         </div>
       </div>
     <!-- </div> -->
-      <div class="rotated"></div>
+      <!-- <div class="rotated"></div> -->
 
       <div class="main-screen-bottom__wrapper">
         <div class="main-screen-bottom_icons">
@@ -69,8 +73,8 @@
     </div>
     <div class="section-main__wrapper">
 
-    <section class="section section-1">
-      <div class="section-block__wrapper">
+    <section class="section section-1 section-border-top">
+      <div class="section-block__wrapper section-block__wrapper-right">
         <div class="section-1-text-left"><h2 class="section-header">Предотвращайте<br> кассовые разрывы</h2>
         <p class="section-text">Заранее планируйте предстоящие платежи и поступления средств. Тем самым, вы избежите неприятной ситуации с нехваткой средств на счетах</p>
         </div>
@@ -89,7 +93,7 @@
         
       </div>
 
-      <div class="section-block__wrapper">
+      <div class="section-block__wrapper section-block__wrapper-right">
         <div class="section-1-text-left"><h2 class="section-header">Какие товары приносят прибыль</h2>
         <p class="section-text">Находите точки роста, делайте упор на рентабельные товары и увеличивайте свой доход</p>
         </div>
@@ -124,20 +128,20 @@
           </div>
           <ul class="section-2-list-item">
               <li class="section-2-list">
-                <div class="section-2-list"><img src="../img/icons/exclamation-circle.svg" alt="circle-icon">Долгое внесение данных</div></li>
-              <li class="section-2-list"><div class="section-2-list"><img src="../img/icons/exclamation-circle.svg" alt="circle-icon">Ручной ввод данных с маркетплейсов</div></li>
-              <li class="section-2-list"><div class="section-2-list"><img src="../img/icons/exclamation-circle.svg" alt="circle-icon">Не удобная работа с телефона</div></li>
-              <li class="section-2-list"><div class="section-2-list"><img src="../img/icons/exclamation-circle.svg" alt="circle-icon">Сложность восприятия итоговых данных</div></li>
+                <div class="section-2-list"><img src="./img/icons/exclamation-circle.svg" alt="circle-icon">Долгое внесение данных</div></li>
+              <li class="section-2-list"><div class="section-2-list"><img src="./img/icons/exclamation-circle.svg" alt="circle-icon">Ручной ввод данных с маркетплейсов</div></li>
+              <li class="section-2-list"><div class="section-2-list"><img src="./img/icons/exclamation-circle.svg" alt="circle-icon">Не удобная работа с телефона</div></li>
+              <li class="section-2-list"><div class="section-2-list"><img src="./img/icons/exclamation-circle.svg" alt="circle-icon">Сложность восприятия итоговых данных</div></li>
           </ul>
         </div>
         
         <div class="section-2-list__wrapper">
             <div class="section-2-list-name"> FINIO</div>
           <ul class="section-2-list-item">
-            <li class="section-2-list"><div class="section-2-list"><img src="../img/icons/check-circle.svg" alt="check-icon">Внесение данных за пару кликов</li>
-            <li class="section-2-list"><div class="section-2-list"><img src="../img/icons/check-circle.svg" alt="check-icon">Автоматическое получение данных по API</div></li>
-            <li class="section-2-list"><div class="section-2-list"><img src="../img/icons/check-circle.svg" alt="check-icon">Удобная мобильная версия</div></li>
-            <li class="section-2-list"><div class="section-2-list"><img src="../img/icons/check-circle.svg" alt="check-icon">Наглядные отчеты, графики и таблицы</div></li>
+            <li class="section-2-list"><div class="section-2-list"><img src="./img/icons/check-circle.svg" alt="check-icon">Внесение данных за пару кликов</li>
+            <li class="section-2-list"><div class="section-2-list"><img src="./img/icons/check-circle.svg" alt="check-icon">Автоматическое получение данных по API</div></li>
+            <li class="section-2-list"><div class="section-2-list"><img src="./img/icons/check-circle.svg" alt="check-icon">Удобная мобильная версия</div></li>
+            <li class="section-2-list"><div class="section-2-list"><img src="./img/icons/check-circle.svg" alt="check-icon">Наглядные отчеты, графики и таблицы</div></li>
           </ul>
         </div>
       </div>
@@ -360,7 +364,10 @@
       </div>
       <div class="footer-bottom__wrapper">
         <div>© 2022 Finio. Все права защищены.</div>
-        <div><img src="./img/icons/bank-icons.svg" alt="icons of banks"></div>
+        <div><img 
+          src="./img/icons/bank-icons.svg" 
+          alt="icons of banks"
+          id="footer-banks"></div>
       </div>
     </footer>
     </div>
