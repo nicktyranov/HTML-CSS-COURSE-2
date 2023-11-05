@@ -98,6 +98,11 @@
     font-size: 18px;
     line-height: 140%; /* 25.2px */
   }
+  .main-screen_icon img {
+    width: 48px;
+    height: 48px;
+  }
+
   .section {
     max-width: 328px;
   }
@@ -152,11 +157,17 @@
     grid-template-columns: 1fr;
     gap: 32px;
   }
+  .section-3__wrapper img {
+    width: 64px;
+    height: 64px;
+  }
+
   .section-3-headers {
     font-size: 24px;
   }
   .section-4 {
     padding-top: 60px;
+    margin-bottom: 60px;
   }
   .section-headers {
     font-size: 36px;
@@ -181,6 +192,10 @@
   .section-4-text {
     margin: 0;
   }
+  .section-4-support {
+    gap: 32px;
+  }
+
   .section-4-support-img {
     margin-left: 0;
   }

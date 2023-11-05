@@ -11,7 +11,7 @@
   --color-br-white: #ffffff;
   --color-bg-discount: #1abc9c;
   --color-border: rgba(78, 93, 124, 0.08);
-  --color-border-mobile: fill: rgba(255, 255, 255, 0.16);
+  --color-border-mobile: rgba(255, 255, 255, 0.16);
 
   --border-8: 8px;
   --border-16: 16px;
