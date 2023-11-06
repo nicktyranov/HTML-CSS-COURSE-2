@@ -1,0 +1,42 @@
+:root {
+  --color-h2: #000;
+  --color-text: rgba(78, 93, 124, 0.5);
+  --color-text-menu: rgba(255, 255, 255, 0.8);
+  --color-text-white: #fff;
+  --color-text-prices: #4e5d7c;
+  --color-text-footer: rgba(255, 255, 255, 0.7);
+
+  --color-bg-blue: #357efe;
+  --color-br-orange: #ffc736;
+  --color-br-white: #ffffff;
+  --color-bg-discount: #1abc9c;
+  --color-border: rgba(78, 93, 124, 0.08);
+  --color-border-mobile: rgba(255, 255, 255, 0.16);
+
+  --border-8: 8px;
+  --border-16: 16px;
+  --border-67: 67px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-family: "Inter", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+.main-container {
+  position: relative;
+  max-width: 1920px;
+  margin: 0 auto;
+  overflow: hidden;
+}

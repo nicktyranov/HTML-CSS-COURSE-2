@@ -1,0 +1,37 @@
+.button__white {
+  color: var(--color-bg-blue);
+  background-color: var(--color-br-white);
+  text-align: center;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 140%;
+  padding: 12px 32px;
+  border-radius: 34px;
+  border: none;
+  white-space: nowrap;
+}
+
+.section-p-grey {
+  color: var(--color-text);
+
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+.section-align-center {
+  text-align: center;
+}
+
+.section-headers {
+  color: var(--color-h2);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 57.6px */
+}
+.section-border-top {
+  border-top: 1px solid var(--color-border);
+}
