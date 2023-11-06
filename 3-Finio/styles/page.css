@@ -571,11 +571,14 @@
 /* section-6 */
 
 .section-6 {
-  max-width: 1150px;
+  max-width: 1156px;
   margin: 0 auto;
   margin-bottom: 80px;
+
+  /* box-shadow: 0px 0px 32px rgba(78, 93, 124, 0.16); */
 }
 
+/* 
 .button-slider__wrapper {
   position: relative;
   display: flex;
@@ -583,7 +586,7 @@
 }
 .section-6-img-container {
   position: relative;
-  display: inline-block; /* Делаем контейнер строчным блоком, чтобы он зависел от размеров картинки review.png */
+  display: inline-block; 
 }
 
 .section-6-img {
@@ -592,8 +595,8 @@
   padding: 0;
   margin: 0;
   max-width: 100%;
-  height: auto; /* Автоматическая высота для сохранения пропорций */
-}
+  height: auto;
+} */
 
 /* .section-6-img-button-l {
   max-width: 80px;
@@ -605,24 +608,26 @@
 } */
 
 .section-6-img-button-l {
-  max-width: 80px;
-  max-height: 80px;
+  /* max-width: 80px;
+  max-height: 80px; */
+  /* width: 40px;
+  height: 40px; */
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  left: 24px;
+  left: 0;
   cursor: pointer;
 }
 
 .section-6-img-button-r {
   /* width: 40px;
   height: 40px; */
-  max-width: 80px;
-  max-height: 80px;
+  /* max-width: 80px;
+  max-height: 80px; */
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  right: 24px;
+  right: 0;
   cursor: pointer;
 }
 /* 
@@ -643,3 +648,67 @@
   right: 24px;
   cursor: pointer;
 } */
+
+.section-6__container {
+  background-color: var(--color-bg-blue);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1150px;
+  /* max-height: 440px; */
+  overflow: hidden;
+  border-radius: var(--border-8);
+  box-shadow: 0px 0px 32px rgba(78, 93, 124, 0.16);
+  margin: 40px 0;
+  z-index: 1;
+  position: relative;
+}
+
+.section-6-text__wrapper {
+  color: var(--color-text-white);
+
+  max-width: 50%;
+  /* margin: 0 auto; */
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+  margin-left: 100px;
+}
+
+.section-6-text {
+  max-width: 450px;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+.section-6-author {
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 23.8px */
+}
+
+.section-6-img__wrapper {
+  /* max-width: 640px; */
+  max-width: 50%;
+  /* width: auto */
+}
+
+.section-6-img__wrapper img {
+  width: auto;
+}
+
+.section-6-mobile-button {
+  visibility: hidden;
+  display: flex;
+  justify-content: center;
+}
+#section-6-mobile-button {
+  /* visibility: hidden; */
+  max-width: 56px;
+  display: flex;
+  justify-items: center;
+}

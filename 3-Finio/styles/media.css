@@ -223,6 +223,33 @@
     margin: 0 auto;
   }
 
+  .section-6-text {
+    font-size: 24px;
+  }
+  .section-6__container {
+    flex-direction: column-reverse;
+  }
+
+  .section-6-text__wrapper {
+    max-width: none;
+    margin: 48px 24px;
+  }
+  .section-6-img-button-l {
+    visibility: hidden;
+  }
+  .section-6-img-button-r {
+    visibility: hidden;
+  }
+  .section-6-mobile-button {
+    visibility: visible;
+    margin-top: 24px;
+  }
+  .section-6-img__wrapper {
+    max-width: none;
+  }
+  .section-6-img__wrapper img {
+    width: 100%;
+  }
   h2.section-headers.section-headers {
     text-align: left;
   }
@@ -238,8 +265,11 @@
     gap: 30px;
     max-width: 328px;
     margin: 0 auto;
+    padding-bottom: 60px;
   }
   #footer-banks {
+    margin-top: 50px;
+
     max-width: 254px;
   }
 }
